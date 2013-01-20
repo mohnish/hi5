@@ -1,6 +1,6 @@
 ## hi5
 
-hi5 is a simple script that allows users to hi5 a web page. It doesn't need any sort of registration from it's users.
+hi5 is a simple script that allows users to hi5 a web page. It updates the hi5 count in **realtime**. (TODO: video showing the realtime hi5 count updates)
 
 ### Setup
 
