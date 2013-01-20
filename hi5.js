@@ -91,6 +91,9 @@
 
     if ( "true" != cookie.get(id)) {
       hi5.attachEvents();
+    } else {
+      hi5.changeFeedbackText('Thanks!');
+      hi5.showFeedback();
     }
   };
 
