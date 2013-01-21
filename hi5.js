@@ -296,6 +296,8 @@ return (msw << 16) | (lsw & 0xFFFF);
 
     if ( "true" != cookie.get(id)) {
       hi5.attachEvents();
+      hi5.changeFeedbackText('Hi5!');
+      hi5.showFeedback();
     } else {
       hi5.changeFeedbackText('Thanks!');
       hi5.showFeedback();
