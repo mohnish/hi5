@@ -13,6 +13,10 @@ Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 - Create a firebase account and setup a firebase API endpoint. (TODO: detailed explanation)
 - Update the reference in the code. (TODO: detailed explanation)
 - Add `<link rel="stylesheet" href="hi5.css">` to your `head` section.
+- Add `<script src='https://cdn.firebase.com/v0/firebase.js'></script>` to your `head` section.
+
+**NOTE**: You can even add this in your `body` tag. Just make sure you add it before the `hi5.js`.
+
 - Add `<script src="hi5.js"></script>` in the `body` section right before the closing (`</body>`) tag.
 - Add the following in your code, where you want to display your hi5's:
 

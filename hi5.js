@@ -208,7 +208,7 @@ return (msw << 16) | (lsw & 0xFFFF);
     , value = {}
     , count
     , isNew;
-  window.hi5 = {}
+  window.hi5 = {};
 
   hi5.sanitizedUrl = function(hashed) {
     if (hashed) {
