@@ -8,6 +8,8 @@ hi5 is a simple script that allows users to hi5 a web page. It updates the hi5 c
 
 Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 
+Here is a video demo: [https://www.youtube.com/embed/5Rqa_k9AyRk](https://www.youtube.com/embed/5Rqa_k9AyRk)
+
 ### Setup
 
 - Create a firebase account and setup a firebase API endpoint. (TODO: detailed explanation)
