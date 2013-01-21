@@ -228,9 +228,9 @@ return (msw << 16) | (lsw & 0xFFFF);
   };
 
   hi5.updateCount = function() {
-    value[id] = {url: url, count: ++count};
+    value = {url: url, count: ++count};
     if (isNew) {
-      db.set(value);
+      db.child(id).set(value);
     } else {
       db.child(id).update({count: count});
     }
@@ -275,6 +275,8 @@ return (msw << 16) | (lsw & 0xFFFF);
   };
 
   hi5.setup = function() {
+    if (!element) return;
+
     id = hi5.sanitizedUrl(true);
     url = hi5.sanitizedUrl();
 
