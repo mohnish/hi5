@@ -4,6 +4,8 @@ hi5 is a simple script that allows users to hi5 a web page. It updates the hi5 c
 
 ### Demo
 
+[![](http://i.imgur.com/f6xS0Pk.png)](http://mohni.sh/hi5/ "Hi5")
+
 Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 
 ### Setup
@@ -20,10 +22,6 @@ Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 		    <div class="hi5-feedback"></div>
 		</div>
 
-
-### Screenshots
-
-[![](http://i.imgur.com/f6xS0Pk.png)](http://mohni.sh/hi5/)
 
 ### Dependencies
 
