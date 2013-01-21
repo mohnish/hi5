@@ -17,10 +17,14 @@
 #hi5:hover {
   cursor: pointer;
   -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
   -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-.feedback {
+.hi5-feedback {
   font: 10px Helvetica;
   text-align: center;
 }
