@@ -199,7 +199,7 @@ return (msw << 16) | (lsw & 0xFFFF);
  */
 (function(window, document) {
   var element = document.querySelector('#hi5')
-    , feedback = document.querySelector('.feedback')
+    , feedback = document.querySelector('.hi5-feedback')
     , hi5ed = false
     , db = new Firebase('https://hi5.firebaseio.com')
     , timerId = null
@@ -241,7 +241,7 @@ return (msw << 16) | (lsw & 0xFFFF);
   };
 
   hi5.hideFeedback = function() {
-    if ('feedback' == feedback.className) feedback.className += ' hi5-hide';
+    if ('hi5-feedback' == feedback.className) feedback.className += ' hi5-hide';
     feedback.className = feedback.className.replace(/hi5-show/g, 'hi5-hide');
   };
 
@@ -254,6 +254,7 @@ return (msw << 16) | (lsw & 0xFFFF);
   };
 
   hi5.onMouseOver = function(e) {
+    hi5.changeFeedbackText("Don't Move");
     hi5.showFeedback();
     timerId = window.setTimeout(hi5.handleHi5, 1000);
   };
