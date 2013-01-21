@@ -13,10 +13,14 @@ Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 - Include the required files. (TODO: detailed explanation)
 
 
-## Screenshots
+### Screenshots
 
 TODO
 
+### Dependencies
+
+- [MD5.js](http://www.myersdaily.org/joseph/javascript/md5-text.html)
+- [Cookie.js](https://github.com/js-coder/cookie.js)
 
 Inspired by the kudos feature of [Svbtle](http://svbtle.com).
 
