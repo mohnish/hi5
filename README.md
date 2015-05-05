@@ -1,8 +1,12 @@
-## hi5
+# hi5
 
 hi5 is a simple script that allows users to hi5 a web page. It updates the hi5 count in **realtime**.
 
-### Demo
+## Note
+
+v2 is in the works
+
+## Demo
 
 [![](http://i.imgur.com/f6xS0Pk.png)](http://mohni.sh/hi5/ "Hi5")
 
@@ -10,7 +14,7 @@ Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
 
 Here is a video demo: [https://www.youtube.com/watch?v=5Rqa_k9AyRk](https://www.youtube.com/watch?v=5Rqa_k9AyRk)
 
-### Setup
+## Setup
 
 - Create a firebase account and setup a firebase API endpoint. (TODO: detailed explanation)
 - Update the reference in the code. (TODO: detailed explanation)
@@ -29,7 +33,7 @@ Here is a video demo: [https://www.youtube.com/watch?v=5Rqa_k9AyRk](https://www.
 		</div>
 
 
-### Dependencies
+## Dependencies
 
 - [MD5.js](http://www.myersdaily.org/joseph/javascript/md5-text.html)
 - [Cookie.js](https://github.com/js-coder/cookie.js)
