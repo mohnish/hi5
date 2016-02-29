@@ -1,49 +1,28 @@
 # hi5
 
-hi5 is a simple script that allows users to hi5 a web page. It updates the hi5 count in **realtime**.
-
-## Note
-
-v2 is in the works
-
-## Demo
-
-[![](http://i.imgur.com/f6xS0Pk.png)](http://mohni.sh/hi5/ "Hi5")
-
-Check out the demo here: [http://mohni.sh/hi5/](http://mohni.sh/hi5/ "Hi5")
-
-Here is a video demo: [https://www.youtube.com/watch?v=5Rqa_k9AyRk](https://www.youtube.com/watch?v=5Rqa_k9AyRk)
-
-## Setup
-
-- Create a firebase account and setup a firebase API endpoint. (TODO: detailed explanation)
-- Update the reference in the code. (TODO: detailed explanation)
-- Add `<link rel="stylesheet" href="hi5.css">` to your `head` section.
-- Add `<script src='https://cdn.firebase.com/v0/firebase.js'></script>` to your `head` section.
-
-**NOTE**: You can even add this in your `body` tag. Just make sure you add it before the `hi5.js`.
-
-- Add `<script src="hi5.js"></script>` in the `body` section right before the closing (`</body>`) tag.
-- Add the following in your code, where you want to display your hi5's:
-
-
-		<div class="hi5-container">
-  			<div id="hi5"></div>
-		    <div class="hi5-feedback"></div>
-		</div>
-
-
-## Dependencies
-
-- [MD5.js](http://www.myersdaily.org/joseph/javascript/md5-text.html)
-- [Cookie.js](https://github.com/js-coder/cookie.js)
-
-Inspired by the kudos feature of [Svbtle](http://svbtle.com).
-
-## <3
-
-Built with Firebase and lots of [<3](http://twitter.com/arrowgunz)!
+> hi5 is a simple component that allows users to hi5 a web page in **realtime**
 
 ## License
 
-MIT
+(The MIT License)
+
+Copyright (c) 2016 Mohnish Thallavajhula &lt;i@mohni.sh&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
